@@ -1,0 +1,33 @@
+{
+  "feature": "Unified text, dictation, audio and video composer",
+  "nativeTests": 13,
+  "webTests": 12,
+  "build": "TypeScript/Vite, native macOS host and strict signed package passed",
+  "ios": "Assets prepared and plist/project lint passed; physical iOS compile/capture not verified",
+  "nativeUI": {
+    "vault": "Disposable synthetic fixture only",
+    "verified": [
+      "Text editor and all four input tools in one Add to this day card",
+      "Saved recording inclusion/transcript/retry controls present",
+      "Synthetic recognized transcript visible in daily and weekly summaries"
+    ],
+    "notVerified": [
+      "Live microphone/camera capture",
+      "Real on-device Speech inference",
+      "Phone layout and interruption behavior"
+    ]
+  },
+  "permissionsDuringEvaluation": "No microphone, camera or Speech authorization requested",
+  "hashes": {
+    "apps/web/src/App.tsx": "52f40f1e5f2af439c26473de0234e2c7669f792d178d419be83d074d57ad83ac",
+    "apps/web/src/MediaComposer.tsx": "9734f71a6f19af8e60aedcefc81c89c06e9206a5bc806635e02d9a9af613d2d4",
+    "apps/web/src/MediaAttachment.tsx": "d5b848af15d7f36756f6c0b65adf0d6c2ad08bc30a90e66ecf3e9f5fad275058",
+    "apps/web/src/speech.ts": "7db2d46de9cf7f354ce98b3b4423bc755f4860c8c555bc729d8df8aaa361d3a5",
+    "apps/web/src/journal.ts": "43b6f83044080864cea8419fa1a2dbd367722eb81517d85ef7f5c07e6df66025",
+    "packages/JournalServices/Sources/JournalServices/SpeechJobs.swift": "ae9129c3b23b52afd3ffbcf6635706d6fd5a0117f6fd1b1504898782d4dcc888",
+    "packages/JournalServices/Sources/JournalServices/OnDeviceRecordingTranscriber.swift": "5f4577687e9eb2db6b3277b31bfaf8e33ca7b5adf57083446513640f753dd607",
+    "packages/JournalServices/Sources/JournalServices/JournalStore.swift": "00900c6e130c187c7ff5f5e71580b2e6f839d8b17f0908e6d45d325020efe0e2",
+    "packages/JournalServices/Sources/JournalServices/MediaLibrary.swift": "c0aa4573b48c49af946634d996ca7ee94bdbdc7a48c66ca0e43c142948e31280",
+    "apps/apple/Sources/MemoryCatcherHost/App.swift": "59646a2a329c1378a1b7b84a2ad05194e6d07f9fda73faec14fc68d2da8a64c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "data": "Synthetic disposable vault only",
+  "ui": "Packaged React WKWebView with bundled assets; no dev server",
+  "verified": [
+    "Native bridge saved multi-paragraph original text",
+    "Week showed one native memory",
+    "Unfinished draft survived navigation",
+    "App quit and reopened; memory and draft both restored",
+    "Native SQLite rows independently verified"
+  ],
+  "notVerified": [
+    "iOS build/device",
+    "Malicious frame injection against live WebKit",
+    "Cross-device sync",
+    "Media or resource integrations"
+  ],
+  "normalUserVaultTouched": false
+}

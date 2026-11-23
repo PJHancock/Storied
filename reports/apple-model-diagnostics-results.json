@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-13",
+  "harness": {
+    "available": true,
+    "minimal_generation": "failed",
+    "errors": [
+      "FoundationModels.LanguageModelError:-1",
+      "ModelManagerServices.ModelManagerError:1008"
+    ],
+    "structured_generation": "not attempted after minimal failure"
+  },
+  "native_app": {
+    "bundle": "org.example.MemoryCatcher3.UnifiedReview",
+    "storage": "diagnostic view does not instantiate JournalStore or connectors",
+    "available": true,
+    "minimal_generation": "passed",
+    "structured_pipeline": "passed",
+    "evidence": [
+      "reported text",
+      "recognized speech (synthetic transcript, not live Speech)",
+      "uncertain visual clues (synthetic, not live Vision)",
+      "calendar plan",
+      "selected-city weather"
+    ],
+    "observed_summary": {
+      "title": "Lakeside Hike and Home Cooking",
+      "detail": "We hiked beside the lake with Sam in the morning, as noted in the morning report. Afterward, we made vegetable soup at home. The evening concert was scheduled but cancelled, so we did not attend.",
+      "sourceIDs": [
+        "synthetic-plan",
+        "synthetic-speech",
+        "synthetic-text",
+        "synthetic-visual",
+        "synthetic-weather"
+      ]
+    },
+    "observations": [
+      "No BANANA instruction-following text appeared.",
+      "Concert cancellation was retained; attendance was denied.",
+      "No claim that the user was in Denver appeared.",
+      "Output passed source reference, length and long-copy validation.",
+      "Prose retains an unnecessary morning-report phrase; one successful fixture is not broad quality or grounding proof."
+    ]
+  },
+  "conclusion": "1008 reproduced in the restricted command-line harness but not in normally launched native app. Exact internal Apple cause remains unconfirmed. Explicit zero-based evidenceIndex fields corrected an independently observed source-reference validation failure.",
+  "native_tests_passed": 22,
+  "web_tests_passed": 12,
+  "package": "passed",
+  "system_changes": "No license acceptance, security changes, personal-source access or permission grants.",
+  "limitations": [
+    "No proof that all future app launches or devices are immune to error 1008.",
+    "Live photo/speech inference and iPhone behavior not tested by this probe."
+  ]
+}

@@ -1,0 +1,11 @@
+npm notice run memory-catcher-3@0.1.0 build
+npm notice run tsc --noEmit -p apps/web/tsconfig.json && vite build --config apps/web/vite.config.ts && node scripts/finish-web.mjs
+vite v8.0.5 building client environment for production...
+[2Ktransforming...✓ 18 modules transformed.
+rendering chunks...
+computing gzip size...
+apps/web/dist/app.css   19.64 kB │ gzip:  5.74 kB
+apps/web/dist/app.js   211.74 kB │ gzip: 66.32 kB
+
+✓ built in 57ms
+Web assets ready. Open apps/apple/MemoryCatcher.xcodeproj in full Xcode and choose the MemoryCatcher3 scheme.

@@ -1,0 +1,30 @@
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/4] Write sources
+[1/4] Write swift-version--1AB21518FC5DEDBE.txt
+[3/6] Compiling JournalServicesTests BridgeTests.swift
+[4/6] Emitting module JournalServicesTests
+[5/8] Emitting module JournalServicesPackageTests
+[6/8] Compiling JournalServicesPackageTests runner.swift
+[6/8] Write Objects.LinkFileList
+[7/8] Linking JournalServicesPackageTests
+Build complete! (1.20s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite BridgeTests started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.011 seconds.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.013 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.014 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.018 seconds.
+✔ Suite BridgeTests passed after 0.019 seconds.
+✔ Test run with 4 tests in 1 suite passed after 0.019 seconds.

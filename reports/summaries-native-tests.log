@@ -1,0 +1,67 @@
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/3] Write sources
+[1/3] Write swift-version--1AB21518FC5DEDBE.txt
+[3/5] Compiling JournalServicesTests SummaryTests.swift
+[4/5] Emitting module JournalServicesTests
+[4/6] Write Objects.LinkFileList
+[5/6] Linking JournalServicesPackageTests
+Build complete! (2.04s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite SummaryPublicationTests started.
+◇ Suite RecordingTranscriptTests started.
+◇ Suite BridgeTests started.
+◇ Suite SummaryTests started.
+◇ Test completeDayAndWeekPublishTogetherAndBecomeStaleAfterEdits() started.
+◇ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() started.
+◇ Test cancellationAndConsentChangesRejectLateResults() started.
+◇ Test providerFailurePublishesNoInventedOrPartialSummary() started.
+◇ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() started.
+◇ Test actualModelAvailabilityIsReported() started.
+◇ Test injectedProcessingPublishesWithoutRequestingPermissions() started.
+◇ Test validationRejectsCopiesFabricatedReferencesAndOversize() started.
+◇ Test sourceChangesAndCancellationPreventLatePublication() started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+◇ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() started.
+◇ Test daySummaryEditsPersistAndCanBeRegenerated() started.
+◇ Test incompleteAndCancelledMediaUploadsAreNotSaved() started.
+◇ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() started.
+◇ Test photoAndCalendarChoicesPersistAcrossStoreReopen() started.
+◇ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+SUMMARY_APPLE_MODEL_AVAILABLE=true
+✔ Test validationRejectsCopiesFabricatedReferencesAndOversize() passed after 0.045 seconds.
+✔ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() passed after 0.045 seconds.
+✔ Test actualModelAvailabilityIsReported() passed after 0.045 seconds.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.045 seconds.
+✔ Test incompleteAndCancelledMediaUploadsAreNotSaved() passed after 0.045 seconds.
+✔ Test photoAndCalendarChoicesPersistAcrossStoreReopen() passed after 0.045 seconds.
+✔ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() passed after 0.045 seconds.
+✔ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() passed after 0.047 seconds.
+✔ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() passed after 0.050 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.052 seconds.
+✔ Test daySummaryEditsPersistAndCanBeRegenerated() passed after 0.053 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.057 seconds.
+✔ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() passed after 0.090 seconds.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.092 seconds.
+✔ Suite BridgeTests passed after 0.092 seconds.
+✔ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() passed after 0.111 seconds.
+✔ Test injectedProcessingPublishesWithoutRequestingPermissions() passed after 0.124 seconds.
+✔ Test cancellationAndConsentChangesRejectLateResults() passed after 0.132 seconds.
+✔ Suite RecordingTranscriptTests passed after 0.132 seconds.
+✔ Test providerFailurePublishesNoInventedOrPartialSummary() passed after 0.155 seconds.
+✔ Test completeDayAndWeekPublishTogetherAndBecomeStaleAfterEdits() passed after 0.160 seconds.
+✔ Suite SummaryPublicationTests passed after 0.160 seconds.
+✔ Test sourceChangesAndCancellationPreventLatePublication() passed after 0.742 seconds.
+✔ Suite SummaryTests passed after 0.742 seconds.
+✔ Test run with 20 tests in 4 suites passed after 0.742 seconds.

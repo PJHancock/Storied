@@ -1,0 +1,163 @@
+[
+  {
+    "name": "react",
+    "version": "19.2.4",
+    "archive": "react-19.2.4.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "ecdfd6ca295938ada2c0a9685dcec83a4436fd45c5629970ab4d91bf40accbf1"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.2.4",
+    "archive": "react-dom-19.2.4.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "7fb9854279817361cb9921c92e398174348c5401e18cb097b0a2bea6a0f7784e"
+  },
+  {
+    "name": "scheduler",
+    "version": "0.27.0",
+    "archive": "scheduler-0.27.0.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "91a535532c7e503ac9f16118f5b2e5b87bfddf941d9aa508b14886e0c5c394aa"
+  },
+  {
+    "name": "vite",
+    "version": "8.0.5",
+    "archive": "vite-8.0.5.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "498ed44b0fadd8ca5b905eb12e9e0ca8d94b7fcae10bbba5212e5c6969ea5fd8"
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.32.0",
+    "archive": "lightningcss-1.32.0.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "b257349bc9031e7d2d6bbb95186c64bce98058488083f950788813c2ebe828e7"
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "archive": "detect-libc-2.1.2.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "e29fca7d387cc2fab970c8bae18ef2925258db0fd182a14cff4921306642e31d"
+  },
+  {
+    "name": "lightningcss-darwin-arm64",
+    "version": "1.32.0",
+    "archive": "lightningcss-darwin-arm64-1.32.0.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "a35bcf3a54eb208ee85b37832a708f487f1759f0b0225cfa761af6d34cc70325"
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.4",
+    "archive": "picomatch-4.0.4.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "119034f088e84e03770d03f5ac4cca02f26d94d9f77d133beae36021c11f02fc"
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.23",
+    "archive": "postcss-8.5.23.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "f633e06aa6c32571aeb11787281c8b413835336994cec3f6d92954532111a7f2"
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.19",
+    "archive": "nanoid-3.3.19.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "b3fb1928e8baea3e7d65a7c1e571af696068e8937a61a729c986e8b46e7d3aaf"
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "archive": "picocolors-1.1.1.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "d3aedb2807967b7eb37fd11b03b7e3701e725af79c650d0812ff7213f8f882d9"
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "archive": "source-map-js-1.2.2.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "142746d239d522e0b907de3b029520ae8995b76fc6546fbe8847786963062b9f"
+  },
+  {
+    "name": "rolldown",
+    "version": "1.0.0-rc.12",
+    "archive": "rolldown-1.0.0-rc.12.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "ad21e0a1a0a607dc1ee3713dff32a9991fc3abf95bb52a342e757e50f0a3b082"
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.122.0",
+    "archive": "oxc-project-types-0.122.0.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "c183e80552d1b8aa66e52be1bc3bf05dafeb9c7da675798666eabfc408268cb0"
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.0-rc.12",
+    "archive": "rolldown-pluginutils-1.0.0-rc.12.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "a4c298d6e1480ee1ba09dad3b23faa57b73a4f7014403e563c6b929b0decb877"
+  },
+  {
+    "name": "@rolldown/binding-darwin-arm64",
+    "version": "1.0.0-rc.12",
+    "archive": "rolldown-binding-darwin-arm64-1.0.0-rc.12.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "4971aca4938c7199d71629eb7ab20bb36fa38231b90bcd6f60282cfb5c09a832"
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.15",
+    "archive": "tinyglobby-0.2.15.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "4750a03337ef85955a03ceb6a393c57add78f446925ad9abb005e203e88be2ce"
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "archive": "fdir-6.5.0.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e"
+  },
+  {
+    "name": "fsevents",
+    "version": "2.3.3",
+    "archive": "fsevents-2.3.3.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "e98942f2af687ee8e39dee620f4db9b391c66a2d22dd360b48c1cb6f18ee3df2"
+  },
+  {
+    "name": "typescript",
+    "version": "5.9.3",
+    "archive": "typescript-5.9.3.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "83bbb0a3593bfee82d929730950bebf67451ef9acc435b5f7a2c366495cadc6a"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.2.14",
+    "archive": "types-react-19.2.14.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "26bfe3fc969607f224e01c5e8681cff9ce34e5b3500941aeb11d21d7092703ef"
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "archive": "csstype-3.2.3.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "ffb194dc2c8f790beaa2ebbbae1702ed620bbe4d24a0eb155816c3bef1c2b704"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.2.3",
+    "archive": "types-react-dom-19.2.3.tgz",
+    "source": "Installed npm distribution; offline bootstrap",
+    "sha256": "ea205d10b508022f19bcd1cf6b85aca745c807dc688b0e7dc341f2d8e411cd92"
+  }
+]

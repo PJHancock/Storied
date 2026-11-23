@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "native_tests_passed": 20,
+  "web_tests_passed": 12,
+  "production_build": "passed",
+  "mac_package_and_signature": "passed",
+  "ios_assets": "prepared; physical device/full Xcode validation not performed",
+  "real_model": {
+    "reported_available": true,
+    "synthetic_inference": "blocked",
+    "error": "FoundationModels.LanguageModelError -1; ModelManagerServices.ModelManagerError 1008",
+    "quality_validated": false
+  },
+  "limits": [
+    "Generated text quality and semantic grounding are not proven by reference/length validation or injected-provider tests.",
+    "Connected Photos analysis covers at most 12 loaded previews per day; thumbnails and Vision/OCR may omit details.",
+    "Unprocessed recordings/media cannot supply event facts; the UI reports missing analysis.",
+    "No personal source permissions were requested for evaluation."
+  ],
+  "follow_up_report": "apple-model-diagnostics-results.json"
+}

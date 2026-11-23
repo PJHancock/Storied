@@ -1,0 +1,87 @@
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[2/5] Write swift-version--1AB21518FC5DEDBE.txt
+[4/8] Compiling JournalServices GroundedSummaries.swift
+[5/8] Compiling JournalServices AppleModelDiagnostics.swift
+[6/8] Emitting module JournalServices
+[7/11] Emitting module JournalServicesTests
+[8/11] Compiling JournalServicesTests SummaryTests.swift
+[9/11] Compiling JournalServicesTests BridgeTests.swift
+[9/11] Write Objects.LinkFileList
+[10/11] Linking JournalServicesPackageTests
+Build complete! (2.79s)
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite AppleModelDiagnosticsTests started.
+◇ Suite RecordingTranscriptTests started.
+◇ Suite SummaryTests started.
+◇ Suite BridgeTests started.
+◇ Suite SummaryPublicationTests started.
+◇ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() started.
+◇ Test underlyingCodesAreRetainedWithoutSensitiveDescriptions() started.
+◇ Test cancellationAndConsentChangesRejectLateResults() started.
+◇ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() started.
+◇ Test minimalLiveProbeWhenExplicitlyEnabled() started.
+◇ Test injectedProcessingPublishesWithoutRequestingPermissions() started.
+◇ Test completeDayAndWeekPublishTogetherAndBecomeStaleAfterEdits() started.
+◇ Test validationRejectsCopiesFabricatedReferencesAndOversize() started.
+◇ Test sourceChangesAndCancellationPreventLatePublication() started.
+◇ Test providerFailurePublishesNoInventedOrPartialSummary() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() started.
+◇ Test actualModelAvailabilityIsReported() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+◇ Test photoAndCalendarChoicesPersistAcrossStoreReopen() started.
+◇ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() started.
+◇ Test daySummaryEditsPersistAndCanBeRegenerated() started.
+◇ Test incompleteAndCancelledMediaUploadsAreNotSaved() started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+◇ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() started.
+◇ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+SUMMARY_APPLE_MODEL_AVAILABLE=true
+✔ Test underlyingCodesAreRetainedWithoutSensitiveDescriptions() passed after 0.054 seconds.
+✔ Test validationRejectsCopiesFabricatedReferencesAndOversize() passed after 0.054 seconds.
+✔ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() passed after 0.054 seconds.
+✔ Test actualModelAvailabilityIsReported() passed after 0.054 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.054 seconds.
+✔ Test incompleteAndCancelledMediaUploadsAreNotSaved() passed after 0.054 seconds.
+✔ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() passed after 0.054 seconds.
+✔ Test photoAndCalendarChoicesPersistAcrossStoreReopen() passed after 0.054 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.054 seconds.
+✔ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() passed after 0.055 seconds.
+✔ Test daySummaryEditsPersistAndCanBeRegenerated() passed after 0.056 seconds.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.062 seconds.
+✔ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() passed after 0.063 seconds.
+✔ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() passed after 0.118 seconds.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.124 seconds.
+✔ Suite BridgeTests passed after 0.124 seconds.
+APPLE_MODEL_DIAGNOSTIC={"synthesis":"not attempted","detail":"Apple's local model service could not start generation (error 1008). Try again in the normally launched app. If it persists, check Apple Intelligence in System Settings and restart the Mac. Showing a source preview.","plain":"failed: FoundationModels.LanguageModelError:-1, ModelManagerServices.ModelManagerError:1008","available":true}
+✘ Test minimalLiveProbeWhenExplicitlyEnabled() recorded an issue at SummaryTests.swift:148:9: Expectation failed: report.plain == "passed"
+↳ // This is an opt-in integration gate; failure must remain visible.
+↳ report.plain == "passed" → false
+↳   report.plain → "failed: FoundationModels.LanguageModelError:-1, ModelManagerServices.ModelManagerError:1008"
+✘ Test minimalLiveProbeWhenExplicitlyEnabled() recorded an issue at Summarwarning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+yTests.swift:149:9: Expectation failed: report.synthesis == "passed"
+↳ report.synthesis == "passed" → false
+↳   report.synthesis → "not attempted"
+✘ Test minimalLiveProbeWhenExplicitlyEnabled() failed after 0.125 seconds with 2 issues.
+✘ Suite AppleModelDiagnosticsTests failed after 0.125 seconds with 2 issues.
+✔ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() passed after 0.155 seconds.
+✔ Test injectedProcessingPublishesWithoutRequestingPermissions() passed after 0.183 seconds.
+✔ Test cancellationAndConsentChangesRejectLateResults() passed after 0.187 seconds.
+✔ Suite RecordingTranscriptTests passed after 0.187 seconds.
+✔ Test providerFailurePublishesNoInventedOrPartialSummary() passed after 0.203 seconds.
+✔ Test completeDayAndWeekPublishTogetherAndBecomeStaleAfterEdits() passed after 0.245 seconds.
+✔ Suite SummaryPublicationTests passed after 0.245 seconds.
+✔ Test sourceChangesAndCancellationPreventLatePublication() passed after 0.825 seconds.
+✔ Suite SummaryTests passed after 0.825 seconds.
+✘ Test run with 22 tests in 5 suites failed after 0.826 seconds with 2 issues.
+Note: Some test targets reported failures:
+  - JournalServicesPackageTests (Swift Testing)

@@ -1,0 +1,43 @@
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/2] Write swift-version--1AB21518FC5DEDBE.txt
+Build complete! (0.17s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite BridgeTests started.
+◇ Suite RecordingTranscriptTests started.
+◇ Test injectedProcessingPublishesWithoutRequestingPermissions() started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+◇ Test photoAndCalendarChoicesPersistAcrossStoreReopen() started.
+◇ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() started.
+◇ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() started.
+◇ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() started.
+◇ Test cancellationAndConsentChangesRejectLateResults() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test daySummaryEditsPersistAndCanBeRegenerated() started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+◇ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+◇ Test incompleteAndCancelledMediaUploadsAreNotSaved() started.
+✔ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() passed after 0.045 seconds.
+✔ Test photoAndCalendarChoicesPersistAcrossStoreReopen() passed after 0.045 seconds.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.045 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.045 seconds.
+✔ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() passed after 0.047 seconds.
+✔ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() passed after 0.047 seconds.
+✔ Test daySummaryEditsPersistAndCanBeRegenerated() passed after 0.048 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.049 seconds.
+✔ Test incompleteAndCancelledMediaUploadsAreNotSaved() passed after 0.052 seconds.
+✔ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() passed after 0.092 seconds.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.094 seconds.
+✔ Suite BridgeTests passed after 0.095 seconds.
+✔ Test injectedProcessingPublishesWithoutRequestingPermissions() passed after 0.116 seconds.
+✔ Test cancellationAndConsentChangesRejectLateResults() passed after 0.117 seconds.
+✔ Suite RecordingTranscriptTests passed after 0.118 seconds.
+✔ Test run with 13 tests in 2 suites passed after 0.118 seconds.

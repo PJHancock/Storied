@@ -1,0 +1,34 @@
+npm notice run memory-catcher-3@0.1.0 test
+npm notice run bash scripts/test-native.sh
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/3] Write sources
+[1/3] Write swift-version--1AB21518FC5DEDBE.txt
+[3/5] Emitting module JournalServices
+[4/5] Compiling JournalServices JournalStore.swift
+[4/6] Write Objects.LinkFileList
+[5/6] Linking JournalServicesPackageTests
+Build complete! (0.91s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite BridgeTests started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+◇ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+◇ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+✔ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() passed after 0.007 seconds.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.017 seconds.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.018 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.018 seconds.
+✔ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() passed after 0.020 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.023 seconds.
+✔ Suite BridgeTests passed after 0.024 seconds.
+✔ Test run with 6 tests in 1 suite passed after 0.024 seconds.

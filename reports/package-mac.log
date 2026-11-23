@@ -1,0 +1,36 @@
+npm notice run memory-catcher-3@0.1.0 build
+npm notice run tsc --noEmit -p apps/web/tsconfig.json && vite build --config apps/web/vite.config.ts && node scripts/finish-web.mjs
+vite v8.0.5 building client environment for production...
+[2Ktransforming...✓ 15 modules transformed.
+rendering chunks...
+computing gzip size...
+apps/web/dist/app.css    3.92 kB │ gzip:  1.53 kB
+apps/web/dist/app.js   200.05 kB │ gzip: 63.25 kB
+
+✓ built in 78ms
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'apple': failed storing manifest for 'apple' in cache: attempt to write a readonly database
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+Building for debugging...
+[0/7] Write sources
+[2/7] Write MemoryCatcherHost-entitlement.plist
+[3/7] Write swift-version--1AB21518FC5DEDBE.txt
+[5/10] Emitting module JournalServices
+[6/10] Compiling JournalServices JournalStore.swift
+[7/10] Compiling JournalServices Dispatcher.swift
+[8/12] Emitting module MemoryCatcherHost
+[9/12] Compiling MemoryCatcherHost App.swift
+[9/12] Write Objects.LinkFileList
+[10/12] Linking MemoryCatcherHost
+[11/12] Applying MemoryCatcherHost
+Build complete! (38.03s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'apple': failed storing manifest for 'apple' in cache: attempt to write a readonly database
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+/private/tmp/Final-Project-3/.build/Memory Catcher 3.app: replacing existing signature
+/private/tmp/Final-Project-3/.build/Memory Catcher 3.app

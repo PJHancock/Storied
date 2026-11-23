@@ -1,0 +1,68 @@
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/prestonhancock/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'journalservices': failed storing manifest for 'journalservices' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[2/5] Write swift-version--1AB21518FC5DEDBE.txt
+[4/7] Compiling JournalServices GroundedSummaries.swift
+[5/7] Emitting module JournalServices
+[6/9] Compiling JournalServicesTests SummaryTests.swift
+[7/9] Emitting module JournalServicesTests
+[7/9] Write Objects.LinkFileList
+[8/9] Linking JournalServicesPackageTests
+Build complete! (2.40s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite RecordingTranscriptTests started.
+◇ Suite BridgeTests started.
+◇ Suite SummaryTests started.
+◇ Test injectedProcessingPublishesWithoutRequestingPermissions() started.
+◇ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() started.
+◇ Test invalidDatesAndOversizedTextAreRejected() started.
+◇ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() started.
+◇ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() started.
+◇ Test photoAndCalendarChoicesPersistAcrossStoreReopen() started.
+◇ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() started.
+◇ Test bridgeValidatesEnvelopeParametersAndConsent() started.
+◇ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() started.
+◇ Test cancellationAndConsentChangesRejectLateResults() started.
+◇ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() started.
+◇ Test daySummaryEditsPersistAndCanBeRegenerated() started.
+◇ Test validationRejectsCopiesFabricatedReferencesAndOversize() started.
+◇ Test actualModelAvailabilityIsReported() started.
+◇ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() started.
+◇ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() started.
+◇ Test incompleteAndCancelledMediaUploadsAreNotSaved() started.
+◇ Test sourceChangesAndCancellationPreventLatePublication() started.
+✔ Test invalidDatesAndOversizedTextAreRejected() passed after 0.046 seconds.
+✔ Test batchesCoverEveryCharacterIncludingLongUnicodeAndLastInput() passed after 0.046 seconds.
+✔ Test photoAndCalendarChoicesPersistAcrossStoreReopen() passed after 0.046 seconds.
+✔ Test validationRejectsCopiesFabricatedReferencesAndOversize() passed after 0.046 seconds.
+✔ Test retriesDoNotDuplicateAndStaleWritesCannotOverwrite() passed after 0.046 seconds.
+✔ Test transcriptsPersistButExclusionAndStaleSourcesCannotPublish() passed after 0.046 seconds.
+✔ Test draftRetainsNullAndNewerDatabaseIsNotDowngraded() passed after 0.046 seconds.
+✔ Test localDocumentPolicyRejectsExternalFramesTraversalAndSymlinks() passed after 0.046 seconds.
+✔ Test memoriesAndDraftsSurviveNewStoreAndSaveConsumesDraft() passed after 0.049 seconds.
+✔ Test incompleteAndCancelledMediaUploadsAreNotSaved() passed after 0.054 seconds.
+✔ Test daySummaryEditsPersistAndCanBeRegenerated() passed after 0.058 seconds.
+✔ Test versionOneDatabaseMigratesAndMediaPersistsInChunks() passed after 0.076 seconds.
+✔ Test bridgeValidatesEnvelopeParametersAndConsent() passed after 0.079 seconds.
+✔ Suite BridgeTests passed after 0.080 seconds.
+✔ Test authoritativeEvidenceHonorsAllInclusionAndProvenance() passed after 0.094 seconds.
+✔ Test injectedProcessingPublishesWithoutRequestingPermissions() passed after 0.114 seconds.
+SUMMARY_APPLE_MODEL_AVAILABLE=true
+✔ Test cancellationAndConsentChangesRejectLateResults() passed after 0.119 seconds.
+✔ Suite RecordingTranscriptTests passed after 0.119 seconds.
+✘ Test actualModelAvailabilityIsReported() recorded an issue at SummaryTests.swift:80:6: Caught error: Error Domain=FoundationModels.LanguageModelError Code=-1 "The operation couldn’t be completed. (ModelManagerServices.ModelManagerError error 1008.)" UserInfo={NSLocalizedDescription=The operation couldn’t be completed. (ModelManagerServices.ModelManagerError error 1008.), NSMultipleUnderlyingErrorsKey=(
+    "Error Domain=ModelManagerServices.ModelManagerError Code=1008 \"(null)\" UserInfo={NSMultipleUnderlyingErrorsKey=(\n)}"
+)}
+✘ Test actualModelAvailabilityIsReported() failed after 0.163 seconds with 1 issue.
+✔ Test sourceChangesAndCancellationPreventLatePublication() passed after 0.763 seconds.
+✘ Suite SummaryTests failed after 0.764 seconds with 1 issue.
+✘ Test run with 18 tests in 3 suites failed after 0.764 seconds with 1 issue.
+Note: Some test targets reported failures:
+  - JournalServicesPackageTests (Swift Testing)

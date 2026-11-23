@@ -1,0 +1,22 @@
+npm notice run memory-catcher-3@0.1.0 test:web
+npm notice run node --test apps/web/tests/*.test.mjs
+✔ weeks keep real Sunday to Saturday dates across month and DST boundaries (1.952875ms)
+✔ previews separate the heading from remaining text without inventing content (0.151625ms)
+✔ production fonts resolve inside the packaged web root without network URLs (0.684375ms)
+✔ weekly excerpts honor per-memory inclusion preferences (0.056416ms)
+✔ source previews honor every inclusion flag and include distinct account types (1.337666ms)
+✔ fallback previews remain compact and deduplicate identical accounts (1.479625ms)
+✔ weekly source previews consider all included days rather than copying one richest entry (0.139292ms)
+✔ media MIME normalizing supports common camera, audio and video formats (0.086709ms)
+✔ production policy permits local recording playback and only explicitly allowed weather connections (0.350875ms)
+✔ recording transcripts contribute to daily and weekly summaries only while included (0.21425ms)
+✔ dictation appends paragraphs and enforces the saved text limit (0.213333ms)
+✔ all memory input controls are placed within the existing default text composer (0.825042ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 104.843917

@@ -1,0 +1,14 @@
+npm notice run memory-catcher-3@0.1.0 test:web
+npm notice run node --test apps/web/tests/*.test.mjs
+✔ weeks keep real Sunday to Saturday dates across month and DST boundaries (1.769708ms)
+✔ previews separate the heading from remaining text without inventing content (0.176958ms)
+✔ production fonts resolve inside the packaged web root without network URLs (0.280292ms)
+✔ weekly excerpts honor per-memory inclusion preferences (0.065917ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 93.340333

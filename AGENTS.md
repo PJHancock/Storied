@@ -1,0 +1,3 @@
+# Memory Catcher 3
+
+Read IMPLEMENTATION-PLAN.md and reports/STATUS.md before changes. Plan, implement, evaluate each slice. Keep React presentation separate from authoritative native storage. Native bridge is available only to bundled main-frame content. Use disposable synthetic vaults for tests and UI review. Never access predecessor live journals or grant personal-library permissions for evaluation. Show unavailable integrations honestly. No GPS. Source permissions are requested only through explicit actions. Record missing toolchain/device evidence. Do not claim phase completion until every required acceptance gate passes. Keep credentials out of source and frontend bundles.
